@@ -10,16 +10,6 @@ import { useToast } from '@/components/ui/use-toast'
 const AssignmentUpload = () => {
 	const { toast } = useToast()
 
-	const onUpload = (event: React.FormEvent<HTMLFormElement>) => {
-		event.preventDefault()
-		toast({
-			variant: 'default',
-			title: '文件上傳中...',
-			description: '正在上傳您的檔案，請稍候...',
-			action: <ToastAction altText="Try again">關閉</ToastAction>,
-		})
-	}
-
 	return (
 		<section className="w-full max-w-md mx-auto py-12 md:py-16">
 			<div className="space-y-4">
@@ -43,7 +33,7 @@ const AssignmentUpload = () => {
 							/>
 						</div>
 					</div>
-					<Button type="submit" className="w-full" onClick={onUpload}>
+					<Button type="submit" className="w-full">
 						上傳
 					</Button>
 				</form>
