@@ -43,7 +43,7 @@ export default function PlanCard() {
 				<Button
 					className="w-full bg-emerald-300"
 					variant={'default'}
-					onClick={() => router.push('/plan/drum')}
+					onClick={() => router.push('/plan/1')}
 				>
 					加入課程
 				</Button>

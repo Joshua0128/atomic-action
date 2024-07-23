@@ -13,7 +13,7 @@ export const Sidebar = () => {
 				</Avatar>
 			</div>
 			<div className="flex flex-col items-center mt-10 w-full px-3">
-				<h1 className="text-xl">SuperPie</h1>
+				<h1 className="text-xl">黃伯超</h1>
 				<Progress
 					className="mt-5 w-full"
 					value={87}
